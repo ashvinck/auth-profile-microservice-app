@@ -136,7 +136,7 @@ $(document).ready(function () {
       cache: false,
       success: function (result) {
         localStorage.clear();
-        location.href = '../login.html';
+        location.href = '/login.html';
       },
     });
   });

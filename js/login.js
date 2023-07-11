@@ -76,7 +76,7 @@ $(document).ready(function () {
             console.log(JSON.parse(response));
             localStorage.setItem('userData', response);
             localStorage.setItem('token', loginInfo);
-            location.href = '../profile.html';
+            location.href = '/profile.html';
           } catch (err) {
             console.log('error occured');
             alert('Unable to connect to server');
