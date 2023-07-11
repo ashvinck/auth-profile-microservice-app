@@ -96,7 +96,7 @@ $(document).ready(function () {
         success: function (response) {
           if (response === 'User Data inserted successfully') {
             alert('User Registration Successfull. Please Login');
-            location.href = '../auth-profile-microservice-master/login.html';
+            location.href = '../login.html';
           } else {
             console.log('Error: ', response);
             alert('Error');
